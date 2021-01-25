@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Christian Afreh</title>
+        <?php require_once "ibootstrap.php"; ?>
+        <?php require_once "pdo.php"; ?>
+
+    </head>
+
+<body>
+        <div class="container">
+            <h1>Welcome to Autos Database</h1>
+            <p>
+            <a href="login.php">Please Log In</a>
+            </p>
+
+            Attempt to go to
+            <a href="view.php">view.php</a> without logging in-it should
+            fail with an error message.
+            <br>
+            Attempt to go to
+            <a href="add.php">add.php</a> without logging in-it should
+            fail with an error message.
+
+        </div>
+
+</body>
+
+</html>
